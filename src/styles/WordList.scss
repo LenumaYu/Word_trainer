@@ -1,0 +1,44 @@
+$tableBorder: solid 1px grey;
+$mainTableColor: #d2bfd1;
+
+.tableTag,
+.tableWord,
+.tableTranscription,
+.tableTranslate,
+.tableChanges {
+    border: $tableBorder;
+    padding: 5px;
+    text-align: center;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: $mainTableColor;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.tableChanges {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 30px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: $mainTableColor;
+
+}
+
+input { 
+    border: solid 3px #77a8a8;
+    background-color: $mainTableColor;
+    text-align: center;
+    font-size: 15px;
+}
+
