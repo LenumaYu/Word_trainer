@@ -1,7 +1,7 @@
 import words from './data.json';
-import WordCard from './components/WordCard/WordCard';
 import WordList from './components/WordList/WordList';
 import './styles/App.css';
+import CardSlider from './components/CardSlider/CardSlider';
 
 
 function App() {
@@ -12,11 +12,7 @@ function App() {
                     key={word.id} {...word}
                 />
             )}
-      {words.map((word) =>
-                <WordCard
-                    key={word.id} {...word}
-                />
-            )}
+      <CardSlider words = {words} />
     </div>
   );
 }

@@ -1,0 +1,25 @@
+.leftArrow, .rightArrow {
+    font-size: 50px;
+    font-weight: bolder;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    color: #b9b0b0;
+    
+}
+
+.slider {
+    display: flex;
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 80px;
+
+
+}
+
+.counter {
+    font-size: 20px;
+    color:#b9b0b0;
+    margin-bottom: 20px;      
+}
