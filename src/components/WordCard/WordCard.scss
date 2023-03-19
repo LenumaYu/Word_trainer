@@ -3,12 +3,12 @@ $mainCardColor: #d2bfd1;
 .card {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 300px;
+    min-width: 300px;
+    min-height: 300px;
     margin: 0 auto;
     background-color: $mainCardColor;
     border-radius: 20px;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .tag {
@@ -42,11 +42,10 @@ $mainCardColor: #d2bfd1;
 
 .container{
     display: flex;
-    width: 500px;
+    min-width: 500px;
     margin: 0 auto;
     margin-bottom: 30px;   
     text-align: center;
-
 }
 
 .buttonCheck {

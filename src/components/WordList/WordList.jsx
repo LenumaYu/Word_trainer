@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../../styles/WordList.scss'
+import './WordList.scss'
 import deleteButton from '../../assets/images/deleteButton.png'
 import editButton from '../../assets/images/editButton.png'
 import saveButton from '../../assets/images/saveButton.png'

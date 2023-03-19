@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import '../../styles/WordCard.scss'
+import './WordCard.scss'
 
 
 

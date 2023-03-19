@@ -4,18 +4,15 @@
     border: none;
     background-color: rgba(0, 0, 0, 0);
     cursor: pointer;
-    color: #b9b0b0;
-    
+    color: #b9b0b0;   
 }
 
 .slider {
     display: flex;
-    width: 500px;
-    height: 100%;
+    max-width: 500px;
+    max-height: 100%;
     margin: 0 auto;
-    margin-top: 80px;
-
-
+    padding-top: 80px;
 }
 
 .counter {

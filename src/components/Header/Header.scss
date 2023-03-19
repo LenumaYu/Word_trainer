@@ -1,0 +1,28 @@
+.menu {
+    height: 5em;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #d2bfd1;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+
+}
+
+.contentBox {
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    padding: 1.5em;
+}
